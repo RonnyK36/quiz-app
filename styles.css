@@ -14,16 +14,14 @@ body {
 
 .question-card {
     background: rgb(236, 186, 46);
-    min-width: 400px;
-    min-height: 300px;
+    min-width: 600px;
+    padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .question-card h3 {
-    padding: 0.5rem;
     font-size: 1.7rem;
-    margin-left: 1rem;
 }
 
 .question-card button {
@@ -34,8 +32,7 @@ body {
     color: white;
     background: rgb(21, 197, 21);
     display: block;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
     font-size: 1.2rem;
 }
 
@@ -46,7 +43,6 @@ button:hover {
 ul {
     list-style-type: none;
     padding: 0;
-    margin-left: 1rem;
 }
 
 ul li {

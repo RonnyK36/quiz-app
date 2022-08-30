@@ -12,15 +12,17 @@
 
 <body>
     <div class="question-card">
-        <h3>Question here</h3>
+        <h3 id="question">Question here</h3>
         <ul>
-            <li><input id="a" type="radio"><label for="a">Answer a</label></li>
-            <li><input id="b" type="radio"><label for="b">Answer b</label></li>
-            <li><input id="c" type="radio"><label for="c">Answer c</label></li>
-            <li><input id="d" type="radio"><label for="d">Answer d</label></li>
+            <li><input id="a" type="radio"><label id='a-text' for="a">Answer a</label></li>
+            <li><input id="b" type="radio"><label id='b-text' for="b">Answer b</label></li>
+            <li><input id="c" type="radio"><label id='c-text' for="c">Answer c</label></li>
+            <li><input id="d" type="radio"><label id='d-text' for="d">Answer d</label></li>
         </ul>
-        <button>Submit</button>
+        <button id="submit">Submit</button>
+
     </div>
+
     <script src="app.js"></script>
 </body>
 
