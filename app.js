@@ -110,15 +110,11 @@ submitBtn.addEventListener("click", () => {
             score === 4 ? remarks = 'Excellent Score' :
                 score === 3 ? remarks = 'Good' : score === 2 ? remarks = 'Average' :
                 remarks = 'Try Harder'
-            showScore.innerHTML = `<h4>Your Score! 🤩😎</h4><h2>${score}/${quizData.length}</h2><p>${remarks}</p>`
+            showScore.innerHTML = `<h4>Your Score! 🤩😎</h4><h2>${score}/${quizData.length}</h2><p>${remarks}</p><button onclick= "location.reload()">Play Again</button>`
             showScore.classList.add('show-result')
 
         }
-    } else {
-
     }
-
-
 
 })
 
