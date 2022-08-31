@@ -13,7 +13,7 @@ body {
 }
 
 .question-card {
-    background: rgb(236, 186, 46);
+    background: black;
     min-width: 600px;
     padding: 1rem;
     border-radius: 5px;
@@ -22,6 +22,7 @@ body {
 
 .question-card h3 {
     font-size: 1.7rem;
+    color: white;
 }
 
 .question-card button {
@@ -49,9 +50,18 @@ ul li {
     font-size: 1.3rem;
     margin: 1rem 0;
     padding-left: 1rem;
+    color: white;
 }
 
 ul li label {
     cursor: pointer;
     margin-left: 1rem;
+}
+
+.show-result {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    background: green;
 }
